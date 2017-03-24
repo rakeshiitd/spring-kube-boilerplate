@@ -54,7 +54,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <docker.image.prefix>rak007007</docker.image.prefix>
+        <docker.image.prefix>kube-registry.kube-system.svc.cluster.local:31000/rak007007</docker.image.prefix>
     </properties>
 
     <build>
