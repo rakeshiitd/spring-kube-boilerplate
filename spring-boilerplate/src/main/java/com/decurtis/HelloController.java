@@ -8,7 +8,14 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Spring Boot!";
+        return "Greetings from Spring Boot2!";
+    }
+
+    @RequestMapping("/healthz")
+    public String healthz() {
+    	/*this endpoint will be used for checking all the necessary checks related to health*/
+    	/*for example like all the db connections, redis, elasticsearch connections, java memory, beans availability etc*/ 
+        return "I am live!";
     }
 
 }
