@@ -8,7 +8,7 @@
   ```
 # Setting up private keys for accessing cluster
   ``` sh
-  cp .secrets/kube_aws_rsa ~/.ssh/
+  cp .secrets/kube_aws_rsa ~/.ssh/kube_aws_rsa
   ```
 # Setting up kubectl to access remote cluster
   ``` sh
